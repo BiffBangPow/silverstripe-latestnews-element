@@ -1,0 +1,7 @@
+---
+BBP-Latest-News
+---
+
+BiffBangPow\Element\LatestNewsElement:
+  extensions:
+    BiffBangPow\Extension\CTAExtension
