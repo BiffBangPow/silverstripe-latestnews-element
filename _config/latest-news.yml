@@ -1,0 +1,7 @@
+---
+Name: BBP-Latest-News
+---
+
+BiffBangPow\Element\LatestNewsElement:
+  extensions:
+    - 'BiffBangPow\Extension\CallToActionExtension'
