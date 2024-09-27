@@ -26,10 +26,8 @@
                     <% if $FeaturedImage %>
                         <picture>
                             <% with $FeaturedImage.Fill(600,600) %>
-                                <% if $WebPSupport %>
                                 <source type="image/webp" srcset="$Format('webp').URL">
-                                <% end_if %>
-                                <img alt="$Up.Title" class="lazyload img-fluid" data-src="$URL" src="" loading="lazy"
+                                <img alt="$Up.Title" class="lazyload img-fluid" src="$URL" loading="lazy"
                                      width="$Width" height="$Height">
                             <% end_with %>
                         </picture>
